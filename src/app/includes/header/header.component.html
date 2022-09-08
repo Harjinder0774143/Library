@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>library_books</mat-icon>
+    </button>
+    <span>Library</span>
+    <span class="example-spacer"></span>
+    <button mat-button class="example-icon" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="">Home</button>
+    <button mat-button class="example-icon" routerLinkActive="active"  routerLink="/category">Category</button>
+    <button mat-button class="example-icon" routerLinkActive="active"  routerLink="/location">Location</button>
+    <button mat-button class="example-icon" routerLinkActive="active"  routerLink="/donate">Donate</button>    
+    <button mat-button class="example-icon" routerLinkActive="active"  routerLink="/signin">Sign In</button>
+  </mat-toolbar>

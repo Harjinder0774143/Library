@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// .jumbotron
+// {
+   
+// }
+
+.bannerImg
+{
+    margin-left: 10px;
+
+}
+
+.bannerImg img
+{
+    height: 400px;
+    width: 100%;
+}
+
+.jumboContent
+{
+   position: absolute;
+   background-color: blue;
+   color: white;
+   right: 30px;
+   height: 300px;
+   top: 50%;
+   transform: translateY(-50%);
+   padding: 10px;
+}
+
+.jumboHeading
+{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.lead
+{
+    line-height: 110%;
+    padding: 20px;
+}
+.learnMore
+    {
+         margin-left: 20px;
+    }
+
+    .example-card {
+        max-width: 400px;
+      }
+      
+      .example-header-image {
+        background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+        background-size: cover;
+      }
+
+      .cardBox
+      {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 30px;
+      }
+
+      .cardBox h2
+      {
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 10px;
+      }
+
+      .card
+      {
+        width: 22%;
+      }
+
+      .newBookBtn
+      {
+        padding: 5px;
+      }
+
+      .upcomingProgramBox
+      {
+        margin-top: 20px;
+      }
+
+      .upcomingProgramBox h2
+      {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      .programImg img
+      {
+        height: 350px;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+      }
+    
+      .campContent
+      {
+        padding-top: 50px;
+        
+      }
+
+      .campBtn
+      {
+        padding: 5px 10px;
+      }
+
+      
+
+    //   div ul li
+    //   {
+    //     list-style-type: none;
+    //   }

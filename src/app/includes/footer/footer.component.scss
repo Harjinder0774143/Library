@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer
+      {
+        background-color: blue;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      .footercard
+      {
+        padding: 20px 50px;
+      }
+
+      div ul
+      {
+        list-style-type: none;
+      }
